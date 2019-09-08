@@ -82,10 +82,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.radio.report_codec=1 \
     ril.subscription.types=NV,RUIM \
     ro.telephony.default_cdma_sub=0 \
-    ro.telephony.default_network=22,22 \
+    ro.telephony.default_network=9,9 \
     telephony.lteOnCdmaDevice=1
 
 # SSR
 PRODUCT_PROPERTY_OVERRIDES += \
-    persist.vendor.ssr.enable_ramdumps=0 \
+    persist.vendor.ssr.enable_ramdumps=1 \
     persist.vendor.ssr.restart_level=ALL_ENABLE
